@@ -1,0 +1,38 @@
+library(tidyverse)
+library(effsize)
+library(pwr)
+library(tibble) #(From chapter 7)
+library(ggpubr)
+library(gridExtra)
+options(scipen = 200)
+
+read_csv("/Users/yu.run.q/Desktop/GESTdata.csv")
+A1 <- read_csv("/Users/yu.run.q/Desktop/GESTdata.csv")
+
+read_csv("/Users/yu.run.q/Desktop/Scale_Change.csv")
+A2 <- read_csv("/Users/yu.run.q/Desktop/Scale_Change.csv")
+
+
+
+ggplot(data = A1)+
+  geom_boxplot(mapping = aes(x = NA, y = ST_17), xlab = "Sleep Time General", ylab = "NA")
+P1 = ggviolin(A1,y="ST_17",fill="#00AFBB",palette=c("#00AFBB", "#E7B800"),xlab="Sleep Time",ylab="Time",size=1,width=0.35,add="boxplot",add.params=list(fill="white"))
+P1 = ggpar(P1,ylim = c(-2, 3),font.main = c(11,"bold"),font.x =c(11,"bold"),font.y=c(11,"bold") )
+P1
+
+ggplot(data = A2, mapping = aes(x = Condition_1, y = Score))+
+  geom_point()+
+  geom_line(aes(group = Sub))
+
+ggplot(data = A2, mapping = aes(x = Condition_1, y = LASA))+
+  geom_point()+
+  geom_line(aes(group = Sub))
+
+ggplot(data = A2, mapping = aes(x = Condition_1, y = Game))+
+  geom_point()+
+  geom_line(aes(group = Sub))
+
+
+P1 = ggviolin(A1,y="ST_17",fill="#00AFBB",palette=c("#00AFBB", "#E7B800"),xlab="Sleep Time",ylab="Time",size=1,width=0.35,add="boxplot",add.params=list(fill="white"))
+P1 = ggpar(P1,ylim = c(-2, 3),font.main = c(11,"bold"),font.x =c(11,"bold"),font.y=c(11,"bold") )
+P1
