@@ -1,0 +1,15 @@
+Created by Michael, Runquan YU. 
+This code is open access, but for studied data is Copyright. The dataset is just for education on PSYC3022-001 course, provided by University of Macau.
+⚠️ If anyone copy or analysis dataset for thr further study (include all member in the class except the group), even for commerical, further research, and publication; strictly forbidden under laws protection. 
+
+library(tidyverse)
+library(effsize)
+library(pwr)
+library(tibble)
+library(ggpubr)
+library(gridExtra)
+options(scipen = 200)
+
+read_csv("/Users/yu.run.q/Desktop/GESTdata.csv")
+A1 <- read_csv("/Users/yu.run.q/Desktop/GESTdata.csv")
+
