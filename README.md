@@ -16,7 +16,7 @@ Data (CSV, xlsx which are suggested), R, R-studio, and Basic knowledge of statis
 ### A: install R and RStudio (both free!)
 (1) As for R: You can install it in: https://www.r-project.org/ (Not suitble for CN-Mainland users).
 (2) As for R-studio: You can find here: https://posit.co/download/rstudio-desktop/
-### After Installing!
+### B: After Installing!
 (1) put "install.packages ("tidyverse")" to install
 (2) put "library (tidyverse)" to activate
 
