@@ -71,3 +71,5 @@ Wickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform
 │   └── R Markdown workflows
 └── README.md
 ```
+## Acknowledge
+Thanks for Vice Rector Student Affairs Office (VRSAO) provided fundings and classes. Besides, thanks for Prof/Dr. Oh DongWon provided me materials in different level of R statistic self studying materials **(Oh, 2023)**. 
