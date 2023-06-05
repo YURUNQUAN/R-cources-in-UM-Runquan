@@ -9,6 +9,6 @@ R is a widely used and robust tool that offers many benefits. The ability to per
 You can find the scripts and reading materials used in this sample materials. Please don't hesitate to create issues or contact [Runquan Yu](https://github.com/YURUNQUAN) (SC02303@um.edu.mo or e1119091@u.nus.edu) if you have any questions about the codes. 
 
 ## The first step before u run!
-1. install R and RStudio (both free!)
-As for R: You can install it in: https://www.r-project.org/ (Not suitble for CN-Mainland users).
-As for R-studio: You can find here: https://posit.co/download/rstudio-desktop/
+### A: install R and RStudio (both free!)
+(1) As for R: You can install it in: https://www.r-project.org/ (Not suitble for CN-Mainland users).
+(2) As for R-studio: You can find here: https://posit.co/download/rstudio-desktop/
