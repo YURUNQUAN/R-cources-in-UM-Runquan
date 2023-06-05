@@ -8,7 +8,16 @@ R is a widely used and robust tool that offers many benefits. The ability to per
 
 You can find the scripts and reading materials used in this sample materials. Please don't hesitate to create issues or contact [Runquan Yu](https://github.com/YURUNQUAN) (SC02303@um.edu.mo or e1119091@u.nus.edu) if you have any questions about the codes. 
 
+## Requirements
+
+Data (CSV, xlsx which are suggested), R, R-studio, and Basic knowledge of statistics. 
+
 ## The first step before u run!
 ### A: install R and RStudio (both free!)
 (1) As for R: You can install it in: https://www.r-project.org/ (Not suitble for CN-Mainland users).
 (2) As for R-studio: You can find here: https://posit.co/download/rstudio-desktop/
+
+
+## Usage
+
+Most of the time you only need to change the data path to your own one. Make sure to install all packages before you start.
