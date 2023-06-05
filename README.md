@@ -24,4 +24,38 @@ Data (CSV, xlsx which are suggested), R, R-studio, and Basic knowledge of statis
 
 Most of the time you only need to change the data path to your own one. Make sure to install all packages before you start.
 
-## The main reference book is: 
+## The main reference book
+### The inventory links
+https://r4ds.had.co.nz/
+### Reference
+Wickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. " O'Reilly Media, Inc.".
+### Structure
+```bash
+├── 1 Weclome
+│   ├── Introduction     
+├── 2. Explore
+│   ├── Introduction        
+│   ├── Data Visualization
+|   ├── Workflow: basics
+|   ├── Data transformation
+|   ├── Workflow: scripts
+|   ├── Exploratory Data Analysis
+│   └── Workflow: projects
+├── 2_eeg
+│   ├── a_rest_preprocessing.m      # resting EEG preprocessing
+│   ├── b_rest_microstate.m         # microstate analysis
+│   ├── c_task_preprocessing.m      # task EEG preprocessing
+│   └── d_task_visualization.ipynb  # ERP/TFR/topomap/MVPA analysis
+├── assets
+│   ├── animacy.csv                 # animate/inanimate words(with chinese and corresponding english version)
+│   ├── association.csv             # mathing between words and images
+│   ├── GSN-HydroCel-129.sfp        # standard channel location, get from MNE
+│   └── Helvetica.ttf               # font for plotting
+├── stimuli
+│   ├── food                        # food choice task related PsychoPy scripts (questions & binary choice task)
+│   ├── imageChoice                 # image choice task related PsychoPy scripts
+│   ├── wordChoice                  # word choice task related PsychoPy scripts
+│   └── README.md                   # description of stimuli
+├── LICENSE
+└── README.md
+```
