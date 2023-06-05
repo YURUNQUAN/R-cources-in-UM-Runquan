@@ -43,21 +43,31 @@ Wickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform
 |   ├── Workflow: scripts
 |   ├── Exploratory Data Analysis
 │   └── Workflow: projects
-├── 2_eeg
-│   ├── a_rest_preprocessing.m      # resting EEG preprocessing
-│   ├── b_rest_microstate.m         # microstate analysis
-│   ├── c_task_preprocessing.m      # task EEG preprocessing
-│   └── d_task_visualization.ipynb  # ERP/TFR/topomap/MVPA analysis
-├── assets
-│   ├── animacy.csv                 # animate/inanimate words(with chinese and corresponding english version)
-│   ├── association.csv             # mathing between words and images
-│   ├── GSN-HydroCel-129.sfp        # standard channel location, get from MNE
-│   └── Helvetica.ttf               # font for plotting
-├── stimuli
-│   ├── food                        # food choice task related PsychoPy scripts (questions & binary choice task)
-│   ├── imageChoice                 # image choice task related PsychoPy scripts
-│   ├── wordChoice                  # word choice task related PsychoPy scripts
-│   └── README.md                   # description of stimuli
-├── LICENSE
+├── 3. Wrangle
+│   ├── Introduction        
+│   ├── Tibbles
+|   ├── Data import
+|   ├── Tidy data
+|   ├── Relational data
+|   ├── Strings
+|   ├── Factors
+│   └── Dates and times
+├── 4. Program
+│   ├── Introduction        
+│   ├── Pipes
+|   ├── Functions
+|   ├── Vectors
+│   └── Iteration
+├── 5. Model
+│   ├── Introduction        
+│   ├── Model basics
+|   ├── Model building
+│   └── Many models
+├── 6. Communicate
+│   ├── Introduction        
+│   ├── R Markdown
+|   ├── Graphics for communication
+|   ├── R Markdown formats
+│   └── R Markdown workflows
 └── README.md
 ```
