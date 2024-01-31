@@ -72,4 +72,4 @@ Wickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform
 └── README.md
 ```
 ## Acknowledge
-Thanks to the Vice Rector of the Student Affairs Office (VRSAO) for providing funding and classes. And also, the sincerest thanks to Professor/Dr. Oh DongWon for providing me with self-study materials on different levels of R statistics **(Oh, 2023)**.
+Thanks to the Vice Rector of the Student Affairs Office (VRSAO) for providing funding and classes.
